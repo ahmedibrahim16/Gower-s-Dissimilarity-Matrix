@@ -1,4 +1,4 @@
-The code in the attached function ("gowersdissimilarityfunction") computes the dissimilarity matrix, based on method description by Gower (1971), complemented by description for ordinal features from Rousseeuw
+The code in the attached function ("gowersdissimilarityfunction") computes the dissimilarity matrix, based on the method description by Gower (1971), complemented by description for ordinal features from Rousseeuw
 (1990, pp. 30–31).  
 
 The code in the attached function ("metricconditions")  tests the dissimilarity matrix for the metric conditions described in Nader et al. (2019).
