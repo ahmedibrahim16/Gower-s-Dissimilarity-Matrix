@@ -1,7 +1,5 @@
-#The following code computes $\boldsymbol{D}$, based on method description by \textcite{gower1971}, 
-# complemented by description for ordinal features from \textcite[30-31]{kaufman1990}. 
-
-
+# Requires one to define the column types of the variables in the data frame# 
+# Could easily be adjusted to more than the number of variables below
 
 asymm_var <- c(1)
 numeric_var <- c(2, 6, 7)
