@@ -1,10 +1,10 @@
-The code in the attached function ("gowersdissimilarityfunction") computes the dissimilarity matrix, based on the method description by Gower (1971), complemented by description for ordinal features from Rousseeuw
+The code in the attached R-script ("gowersdissimilarityfunction") computes the dissimilarity matrix, based on the method description by Gower (1971), complemented by description for ordinal features from Rousseeuw
 (1990, pp. 30–31).  
 
-$
+$'
 s_{ij} = \frac{\sum_{l=1}^{p}w_{l}u_{ijl}s_{ijl}}{\sum_{l=1}^{p}w_{l}u_{ijl}},
-$
-\noindent where $s_{ij}$ denotes the similarity between the pair of objects $i$ and $j$ , $w_l$ is the weight of the feature $l$ and $u_{ijl}$ denotes the missing instance indicator.
+'$
+where '$s_{ij}'$ denotes the similarity between the pair of objects '$i'$ and '$j'$ , '$w_l'$ is the weight of the feature '$l'$ and '$u_{ijl}'$ denotes the missing instance indicator.
 
 The code in the attached function ("metricconditions")  tests the dissimilarity matrix for the metric conditions described in Nader et al. (2019).
 
