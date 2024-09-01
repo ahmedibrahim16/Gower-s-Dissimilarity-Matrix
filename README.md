@@ -1,7 +1,7 @@
 The code in the attached R-script ("gowersdissimilarityfunction") computes the dissimilarity matrix, based on the method description by Gower (1971), complemented by description for ordinal features from Rousseeuw
 (1990, pp. 30–31).  
 
-$'
+$
 s_{ij} = \frac{\sum_{l=1}^{p}w_{l}u_{ijl}s_{ijl}}{\sum_{l=1}^{p}w_{l}u_{ijl}},
 $
 
