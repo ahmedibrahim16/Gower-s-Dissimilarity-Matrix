@@ -3,7 +3,8 @@ The code in the attached R-script ("gowersdissimilarityfunction") computes the d
 
 $'
 s_{ij} = \frac{\sum_{l=1}^{p}w_{l}u_{ijl}s_{ijl}}{\sum_{l=1}^{p}w_{l}u_{ijl}},
-'$
+$
+
 where '$s_{ij}'$ denotes the similarity between the pair of objects '$i'$ and '$j'$ , '$w_l'$ is the weight of the feature '$l'$ and '$u_{ijl}'$ denotes the missing instance indicator.
 
 The code in the attached function ("metricconditions")  tests the dissimilarity matrix for the metric conditions described in Nader et al. (2019).
